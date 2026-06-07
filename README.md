@@ -1,3 +1,4 @@
+Markdown
 # OCI GenAI & 23ai RAG Architecture
 
 ## Overview
@@ -30,8 +31,6 @@ graph TD
     style VectorDB fill:#f9d0c4,stroke:#c82124,stroke-width:2px
     style OCI_GenAI fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style Docs fill:#fff3e0,stroke:#e65100,stroke-width:2px
-
-
 Frontend/Interface: Oracle APEX / Streamlit
 
 AI Orchestration: OCI Generative AI Service
