@@ -30,5 +30,21 @@ graph TD
     style VectorDB fill:#f9d0c4,stroke:#c82124,stroke-width:2px
     style OCI_GenAI fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style Docs fill:#fff3e0,stroke:#e65100,stroke-width:2px
+```
 
+* **Frontend/Interface:** Oracle APEX / Streamlit
+* **AI Orchestration:** OCI Generative AI Service
+* **Vector Database:** Oracle Database 23ai (AI Vector Search)
+* **Data Ingestion:** LangChain, Python
 
+## Technical Approach
+1. **Vector Embedding:** Utilizing 23ai native vector capabilities to store and index unstructured enterprise documents.
+2. **Context Retrieval:** Implementing semantic similarity search to fetch relevant chunks before passing to the LLM.
+3. **Prompt Engineering:** Configuring system prompts within OCI GenAI to restrict model responses to retrieved enterprise context.
+
+## Business Value
+* **Data Sovereignty:** All data remains within OCI boundaries, maintaining compliance.
+* **Accuracy:** RAG-based search leverages specific enterprise documentation rather than generalized public training data.
+
+---
+*Created by Mohamed Mousa | Lead Cloud Architect*
