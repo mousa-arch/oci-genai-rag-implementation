@@ -31,7 +31,6 @@ graph TD
     style OCI_GenAI fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style Docs fill:#fff3e0,stroke:#e65100,stroke-width:2px
 
-
 Frontend/Interface: Oracle APEX / Streamlit
 
 AI Orchestration: OCI Generative AI Service
@@ -53,6 +52,3 @@ Data Sovereignty: All data remains within OCI boundaries, maintaining compliance
 Accuracy: RAG-based search leverages specific enterprise documentation rather than generalized public training data.
 
 Created by Mohamed Mousa | Lead Cloud Architect
-
-
-sdd
